@@ -4,8 +4,8 @@
 
 Pre-Requirements :
 
-> > 1.  Nvidia Cuda Drivers
-> > 2.  Installed conda / miniconda
+> 1.  Nvidia Cuda Drivers
+> 2.  Installed conda / miniconda
 
 ```
 # Creating the conda environment
