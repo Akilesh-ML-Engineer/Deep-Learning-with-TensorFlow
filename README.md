@@ -1,5 +1,24 @@
 ## Introduction to Tensorflow
 
+### Installation of the Nvidia Cuda and CuDNN drivers:
+
+```bash
+# For Arch Linux
+sudo pacman -Sy cuda cudnn
+```
+
+Added the path of the cuda and cudnn packages to the `~/.bashrc` file.
+
+```bash
+export CUDA_PATH=/opt/cuda
+export PATH=$CUDA_PATH/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_PATH/lib64:/usr/lib64:$LD_LIBRARY_PATH
+export CPATH=$CUDA_PATH/include:/usr/include:$CPATH
+export LIBRARY_PATH=$CUDA_PATH/lib64:/usr/lib64:$LIBRARY_PATH
+```
+
+Caution: This path can vary depending upon your devices.
+
 ### Installation of the tensorflow in conda:
 
 Pre-Requirements :
@@ -7,7 +26,7 @@ Pre-Requirements :
 > 1.  Nvidia Cuda Drivers
 > 2.  Installed conda / miniconda
 
-```
+```bash
 # Creating the conda environment
 conda create --name=tf python=3.9
 conda activate tf
@@ -20,7 +39,7 @@ echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/' > $CONDA_PREFI
 
 Sign out and sign back in via SSH or close and re-open your terminal window. Reactivate your conda session.
 
-```
+```bash
 # Install the tensorflow with the help of the pip
 conda activate tf
 python3 -m pip install tensorflow==2.16.1
