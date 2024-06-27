@@ -4,7 +4,7 @@
 
 ```bash
 # For Arch Linux
-sudo pacman -Sy cuda cudnn
+sudo pacman -Sy cuda cuda-tools cudnn
 ```
 
 Added the path of the cuda and cudnn packages to the `~/.bashrc` file.
