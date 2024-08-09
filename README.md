@@ -49,16 +49,3 @@ python3 -c "import os; os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'; import tensorfl
 ```
 
 Thus the tensorflow is installed properly along with the GPU support.
-
-### Documentation
-
-- [Installing the Tensorflow](https://www.tensorflow.org/install/pip)
-- [Official Documentation](https://www.tensorflow.org/tutorials?authuser=2)
-- [Introduction to Tensors](https://www.tensorflow.org/guide/tensor)
-- [Linear Regression](https://www.tensorflow.org/tutorials/estimator/linear)
-- [Best-fit Line in linear regression](https://www.investopedia.com/terms/l/line-of-best-fit.asp)
-- “Tf.feature_column.categorical_column_with_vocabulary_list.” TensorFlow, www.tensorflow.org/api_docs/python/tf/feature_column/categorical_column_with_vocabulary_list?version=stable.
-- Staff, EasyBib. “The Free Automatic Bibliography Composer.” EasyBib, Chegg, 1 Jan. 2020, www.easybib.com/project/style/mla8?id=1582473656_5e52a1b8c84d52.80301186.
-- Seif, George. “The 5 Clustering Algorithms Data Scientists Need to Know.” Medium, Towards Data Science, 14 Sept. 2019, https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68.
-- Definition of Hidden Markov Model, http://jedlik.phy.bme.hu/~gerjanos/HMM/node4.html.
-- “Tfp.distributions.HiddenMarkovModel &nbsp;: &nbsp; TensorFlow Probability.” TensorFlow, www.tensorflow.org/probability/api_docs/python/tfp/distributions/HiddenMarkovModel.
